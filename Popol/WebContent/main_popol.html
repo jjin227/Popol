@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="EUC-KR">
-<title>Insert title here</title>
+<style>
+* { padding: 0; margin: 0; box-sizing: border-box; }
+a { text-decoration: none; }
+li {list-style: none; }
+
+header { width: 1200px; height:100px; position: relative; }
+nav { width: 600px; position: absolute; top: 30px; right: 30px; }
+nav > ul { overflow: hidden; }
+nav > ul > li { float: left; width: 25%; text-align: center; }
+nav > ul > li > a { display: inline-block; padding: 12px 0px; width: 100%; }
+</style>
 </head>
 <body>
+<header>
+
+<nav>
+<ul>
+  <li>
+  <a href="#">강원천문대</a>
+    <ul class="submenu">
+      <li><a href="#">천문대소개</a></li>
+      <li><a href="#">인사말</a></li>
+      <li><a href="#">오시는길</a></li>
+    </ul>
+  </li>
+  <li><a href="#">이용안내</a>
+    <ul class="submenu">
+      <li><a href="#">프로그램</a></li>
+      <li><a href="#">관람시간표</a></li>
+      <li><a href="#">이달의 별자리</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">천문대예약</a>
+    <ul class="submenu">
+      <li><a href="#">예약하기</a></li>
+      <li><a href="#">예약확인</a></li>
+      <li><a href="#">예약취소</a></li>
+    </ul>
+  </li>
+  <li>
+    <a href="#">커뮤니티</a>
+    <ul class="submenu">
+      <li><a href="#">공지사항</a></li>
+      <li><a href="#">방문후기</a></li>
+      <li><a href="#">자유게시판</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
+
+</header>
 
 </body>
 </html>
